@@ -4,13 +4,40 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #232630; /* Background color */
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+    background-color: #a16969; /* Background color for container */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* TODO: Add styles for labels, inputs, buttons, and output text */
+h1 {
+    font-size: 2.9em;
+    margin-bottom: 20px;
+    color: #4a4a4a; /* Header color */
+}
+
+/* Add more styles here as needed */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #232630; /* Background color */
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #9bdbeb; /* Background color for container */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
@@ -21,7 +48,31 @@ body {
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #252424; /* Header color */
+}
+h3 {
+    font-size: 28px;
+    color: #242323; 
+    margin-bottom: 20px;
+}
+/* Add more styles here as needed */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 900px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+button:hover {
+    background-color: rgb(241, 145, 19);
+    transform: translateY(-5px);
 }
 
-/* Add more styles here as needed */
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
