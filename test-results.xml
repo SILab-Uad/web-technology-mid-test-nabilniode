@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.450" tests="6" failures="6">
-  <testsuite name="Root Suite" timestamp="2024-10-22T03:17:51" tests="0" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="0.435" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2024-10-22T03:20:27" tests="0" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="Password Generator Tests" timestamp="2024-10-22T03:17:51" tests="6" file="C:\Users\ASUS\Documents\git\web-technology-mid-test-nabilniode\test\test.js" time="0.435" failures="6">
+  <testsuite name="Password Generator Tests" timestamp="2024-10-22T03:20:27" tests="6" file="C:\Users\ASUS\Documents\git\web-technology-mid-test-nabilniode\test\test.js" time="0.394" failures="6">
     <testcase name="Password Generator Tests should generate a password of the specified length" time="0.000" classname="should generate a password of the specified length">
       <failure message="generatePassword is not a function" type="TypeError"><![CDATA[TypeError: generatePassword is not a function
     at Context.<anonymous> (test\/test.js:21:26)

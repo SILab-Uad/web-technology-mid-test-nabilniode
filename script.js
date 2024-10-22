@@ -3,6 +3,7 @@ const generatePassword = (length, options) => {
     const lowercase = "abcdefghijklmnopqrstuvwxyz";
     const numbers = "0123456789";
     const specialChars = "!@#$%^&*()";
+    
 
     let characterSet = '';
     if (options.includeUppercase) characterSet += uppercase;
@@ -11,8 +12,7 @@ const generatePassword = (length, options) => {
     if (options.includeSpecialChars) characterSet += specialChars;
 
     if (characterSet === '') {
-        alert ('pilih minimal satu karakter bang');
-        return;
+        throw new Error ('pilih minimal satu karakter bang');
     }
 
     let password = '';
@@ -23,5 +23,5 @@ const generatePassword = (length, options) => {
 
     return password;
 };
-
+module.exports = generatePassword;
 
