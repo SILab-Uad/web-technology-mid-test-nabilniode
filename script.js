@@ -21,5 +21,7 @@ const generatePassword = (length, options) => {
         password += characterSet[randomIndex];
     }
 
-    return password;
+    return password;
 };
+
+

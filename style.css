@@ -57,13 +57,14 @@ h3 {
 }
 /* Add more styles here as needed */
 button {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #007bff; 
     color: #fff;
     border: none;
     border-radius: 900px;
     cursor: pointer;
-    margin: 0 10px;
+    margin-top: 15px;
+    
     
 }
 button:hover {
